@@ -1,40 +1,40 @@
-{
+﻿{
   "semantics": [
     {
-      "label": "Task description",
-      "description": "Describe how the user should solve the task.",
-      "placeholder": "Click on all the verbs in the text that follows."
+      "label": "Mô tả nhiệm vụ",
+      "description": "Mô tả cách người dùng nên giải quyết công việc.",
+      "placeholder": "Nhấp vào tất cả các động từ trong văn bản theo sau."
     },
     {
-      "label": "Textfield",
-      "placeholder": "This is an answer: *answer*.",
+      "label": "Trường văn bản",
+      "placeholder": "Đây là câu trả lời: *answer*.",
       "description": "",
       "important": {
-        "description": "<ul><li>Marked words are added with an asterix (*).</li><li>An asterix may be escaped with another asterix, resulting in ** = *.</li></ul>",
-        "example": "The correct words are marked like this: *correctword*, an asterisk is written like this: *correctword***."
+        "description": "<ul><li>Các từ đã đánh dấu được thêm bằng dấu hoa thị (*).</li><li>Một dấu hoa thị có thể được thoát bằng một dấu hoa thị khác, dẫn đến ** = *.</li></ul>",
+        "example": "Các từ đúng được đánh dấu như thế này: *đúng*, dấu hoa thị được viết như thế này: *từ đúng***."
       }
     },
     {
-      "label": "Overall Feedback",
+      "label": "Phản hồi tổng thể",
       "fields": [
         {
           "widgets": [
             {
-              "label": "Default"
+              "label": "Mặc định"
             }
           ],
-          "label": "Define custom feedback for any score range",
-          "description": "Click the \"Add range\" button to add as many ranges as you need. Example: 0-20% Bad score, 21-91% Average Score, 91-100% Great Score!",
+          "label": "Xác định phản hồi tùy chỉnh cho bất kỳ thang điểm nào",
+          "description": "Nhấp vào nút \"Thêm thang điểm\" để thêm bao nhiêu thang điểm bạn cần. Ví dụ: 0-20% Điểm kém, 21-91% Điểm trung bình, 91-100% Điểm tuyệt vời!",
           "entity": "range",
           "field": {
             "fields": [
               {
-                "label": "Score Range"
+                "label": "Thang điểm"
               },
               {},
               {
-                "label": "Feedback for defined score range",
-                "placeholder": "Fill in the feedback"
+                "label": "Phản hồi cho thang điểm được xác định",
+                "placeholder": "Điền vào phản hồi"
               }
             ]
           }
@@ -42,59 +42,59 @@
       ]
     },
     {
-      "label": "Text for \"Check\" button",
-      "default": "Check"
+      "label": "Văn bản cho nút \"Kiểm tra\"",
+      "default": "Kiểm tra"
     },
     {
-      "label": "Text for \"Retry\" button",
-      "default": "Retry"
+      "label": "Văn bản cho nút \"Thử lại\"",
+      "default": "Thử lại"
     },
     {
-      "label": "Text for \"Show solution\" button",
-      "default": "Show solution"
+      "label": "Văn bản cho nút \"Hiển thị lời giải\"",
+      "default": "Hiển thị lời giải"
     },
     {
-      "label": "Behavioural settings.",
-      "description": "These options will let you control how the task behaves.",
+      "label": "Cài đặt hành vi.",
+      "description": "Các tùy chọn này sẽ cho phép bạn kiểm soát cách thức thực hiện tác vụ.",
       "fields": [
         {
-          "label": "Enable \"Retry\""
+          "label": "Kích hoạt \"Thử lại\""
         },
         {
-          "label": "Enable \"Show solution\" button"
+          "label": "Kích hoạt nút \"Hiển thị lời giải\""
         },
         {
-          "label": "Enable \"Check\" button"
+          "label": "Kích hoạt nút \"Kiểm tra\""
         },
         {
-          "label": "Show score points",
-          "description": "Show points earned for each answer."
+          "label": "Hiển thị điểm số",
+          "description": "Hiển thị điểm kiếm được cho mỗi câu trả lời."
         }
       ]
     },
     {
-      "label": "Correct answer text",
-      "default": "Correct!",
-      "description": "Text used to indicate that an answer is correct"
+      "label": "Văn bản trả lời đúng",
+      "default": "Đúng!",
+      "description": "Văn bản được sử dụng để chỉ ra rằng một câu trả lời là đúng"
     },
     {
-      "label": "Incorrect answer text",
-      "default": "Incorrect!",
-      "description": "Text used to indicate that an answer is incorrect"
+      "label": "Văn bản trả lời không đúng",
+      "default": "Không đúng!",
+      "description": "Văn bản được sử dụng để chỉ ra rằng một câu trả lời không đúng"
     },
     {
-      "label": "Missed answer text",
-      "default": "Missed!",
-      "description": "Text used to indicate that an answer is missing"
+      "label": "Văn bản trả lời bị thiếu",
+      "default": "Thiếu!",
+      "description": "Văn bản được sử dụng để chỉ ra rằng một câu trả lời bị thiếu"
     },
     {
-      "label": "Description for Display Solution",
-      "default": "Task is updated to contain the solution.",
-      "description": "This text tells the user that the tasks has been updated with the solution."
+      "label": "Mô tả cho Giải pháp hiển thị",
+      "default": "Tác vụ được cập nhật để chứa giải pháp.",
+      "description": "Văn bản này cho người dùng biết rằng các tác vụ đã được cập nhật với giải pháp."
     },
     {
-      "label": "Textual representation of the score bar for those using a readspeaker",
-      "default": "You got :num out of :total points"
+      "label": "Trình diễn văn bản của thanh điểm cho những người sử dụng bộ đọc",
+      "default": "Bạn đã nhận :num trong :tổng số điểm"
     }
   ]
 }
