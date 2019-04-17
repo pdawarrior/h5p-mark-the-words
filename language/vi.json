@@ -94,7 +94,7 @@
     },
     {
       "label": "Trình diễn văn bản của thanh điểm cho những người sử dụng bộ đọc",
-      "default": "Bạn đã nhận :num trong :tổng số điểm"
+      "default": "Bạn đã nhận :num trong :total điểm"
     }
   ]
 }
